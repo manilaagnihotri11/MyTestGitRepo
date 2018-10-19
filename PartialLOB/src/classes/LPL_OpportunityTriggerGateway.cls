@@ -106,7 +106,7 @@ public class LPL_OpportunityTriggerGateway{
     ID oppRIAID = rtMapByName.get('RIA Compliance ADVantage').getRecordTypeId();
     ID oppInsuranceID = rtMapByName.get('AIS Insurance Sales').getRecordTypeId();
     Id IASBD = rtMapByName.get('IAS Business Development').getRecordTypeId();
-    
+    System.debug('Hello');
     Set<Id> AccId= new Set<Id>();   
     Set<Id> opp = new Set<Id>(); 
     Set<Id> con = new Set<Id>(); 

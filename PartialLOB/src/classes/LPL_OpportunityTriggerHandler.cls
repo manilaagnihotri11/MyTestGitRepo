@@ -16,7 +16,7 @@ public class LPL_OpportunityTriggerHandler implements iTrigger{
     
     ID oppRIAID = rtMapByName.get('RIA Compliance ADVantage').getRecordTypeId();
     ID oppInsuranceID = rtMapByName.get('AIS Insurance Sales').getRecordTypeId();
-    
+    system.debug('Hello');
     List<Opportunity> newOpp1 = new List<Opportunity>();
     Map<ID, Opportunity> oldMap = new Map<ID, Opportunity>();
     public static Boolean Flag =true; //CH-02
