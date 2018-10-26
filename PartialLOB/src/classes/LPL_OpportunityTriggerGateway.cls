@@ -101,7 +101,7 @@ public class LPL_OpportunityTriggerGateway{
     Map<ID,String> oppMapnew =new Map<Id,String>();  //CH-12
     Map<ID,String> oppMapNewAssignRec=new Map<ID,String>();//CH-12
     Map<Id,Case> caseMap=new Map<Id,Case>();//ch-07
-    
+    // Adding changes to test jenkins
     Id rt = rt_TaskMap.get('Transitions').getRecordTypeId();
     ID oppRIAID = rtMapByName.get('RIA Compliance ADVantage').getRecordTypeId();
     ID oppInsuranceID = rtMapByName.get('AIS Insurance Sales').getRecordTypeId();
