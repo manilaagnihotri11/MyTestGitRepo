@@ -141,7 +141,6 @@ public class LPL_OpportunityTriggerGateway{
     List<String> emailSendList = new List<String>();  //CH-12
     List<Opportunity> oppListNew=new List<Opportunity>(); //CH-12
     List<Contact> Conupdatevalue = new List<Contact>();
-    //Adding changes to test jenkins
     public static boolean isRecursion = false;
     public static boolean stopCaseTrigTAUpdate = false; //CH-11
     static Boolean value=true;//CH-06
