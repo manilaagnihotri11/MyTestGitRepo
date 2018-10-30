@@ -19,7 +19,7 @@ public class LPL_OpportunityTriggerHandler implements iTrigger{
 
     List<Opportunity> newOpp1 = new List<Opportunity>();
     Map<ID, Opportunity> oldMap = new Map<ID, Opportunity>();
-        system.debug('Hello');
+      
     public static Boolean Flag =true; //CH-02
     public void bulkBefore(){
         if(!Trigger.isDelete){
